@@ -1,0 +1,14 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/.next",
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "GITHUB_TOKEN": "@github_token"
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://localhost:8000/api/:path*"
+    }
+  ]
+}
