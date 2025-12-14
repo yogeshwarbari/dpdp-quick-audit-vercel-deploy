@@ -210,7 +210,7 @@ Frontend runs on `http://localhost:3000`
 ### Test
 
 1. Visit `http://localhost:3000`
-2. Scan a public repo: `https://github.com/pallets/flask`
+2. Scan a public repo: `https://github.com/expressjs/express`
 3. See compliance score and violations
 
 ## Deployment
