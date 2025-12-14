@@ -143,7 +143,7 @@ export default function Home() {
             </button>
           </div>
           <p style={{ fontSize: '12px', color: '#9ca3af', marginTop: '8px' }}>
-            Example: https://github.com/yogeshwarbari/dpdp-quick-audit
+            Example: https://github.com/yogeshwarbari/dpdp-quick-audit-vercel-deploy
           </p>
         </form>
 
