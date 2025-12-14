@@ -6,9 +6,6 @@ services:
       context: ./backend
     ports:
       - "8000:8000"
-    environment:
-      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
-      GITHUB_TOKEN: ${GITHUB_TOKEN}
     command: python main.py
 
   frontend:
